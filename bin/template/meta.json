@@ -1,0 +1,8 @@
+{
+  "name":"",
+  "arguments":{
+    "GET":[],
+    "POST":[]
+  },
+  "response":["status"]
+}
