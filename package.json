@@ -5,16 +5,16 @@
   "preferGlobal": true,
   "main": "bin/main.js",
   "bin": {
-    "fasterbase-functions":"./bin/main.js"
+    "fasterbase-cli": "./bin/main.js"
   },
   "scripts": {
+    "local": "rm -rf test && mkdir test && npm r -g . && npm i -g . && fasterbase-cli",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-  },
-  "devDependencies": {
+    "local": "^0.3.3"
   }
 }
