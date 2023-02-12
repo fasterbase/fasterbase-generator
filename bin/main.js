@@ -5,7 +5,7 @@ function run(){
   const params = process.argv;
   
   if(!params[2])
-  throw new Error("API did not provided");
+  throw new Error("API-KEY is not provided");
 
   if(fs.existsSync("src"))
     throw new Error("src folder is already exist. Please remove it before start");

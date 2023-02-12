@@ -1,6 +1,6 @@
 {
-  "name": "fasterbase-functions",
-  "version": "1.0.2",
+  "name": "fasterbase-cli",
+  "version": "1.0.4",
   "description": "",
   "preferGlobal": true,
   "main": "bin/main.js",
