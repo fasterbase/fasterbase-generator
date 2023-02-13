@@ -24,5 +24,3 @@ function run(){
 }
 
 run()
-
-console.log("salam")
