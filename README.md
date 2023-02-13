@@ -8,7 +8,7 @@
 To generate a new cloud function, run the following command
 
 ```
-npx fasterbase-cli API-KEY
+npx fasterbase-cli NAME API-KEY
 ```
 
 You are able to get the `API-KEY` from your main page in Fasterbase. `Profile->Setting->API key`.
@@ -16,7 +16,6 @@ You are able to get the `API-KEY` from your main page in Fasterbase. `Profile->S
 ## Modify
 
 Before publishing the code, you should modify the `meta.json`
-- name: Name of the clould function (should be unique)
 - arguments
   - GET: Provide your queryString as an array. 
   - POST: Provide your body as an array. 
